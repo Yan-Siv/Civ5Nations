@@ -1,0 +1,167 @@
+[
+ {
+        "name": "Royal Library", //modded
+        "replaces": "Library",
+        "uniqueTo": "Assyria",
+        "cost": 75,            
+        "specialistSlots": {"Artist": 1},
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] Experience in this city"],
+        "requiredTech": "Writing"
+    },
+	{
+        "name": "Free Annexed Technology",
+        "uniqueTo": "Assyria",
+        "cost": -1,
+        "replacementTextForUniques": " ",
+        "uniques": ["Can only be built in annexed cities","Free Technology",
+        	"Will not be displayed in Civilopedia","Unsellable"],
+    },
+	{
+        "name": "Coffee House", //modded
+        "replaces": "Windmill",
+        "uniqueTo": "Austria",
+        "cost": 250,
+        "production": 2,
+        "specialistSlots": {"Engineer": 1},
+        "hurryCostModifier": 25,
+        "maintenance": 2,
+        "uniques": ["+[5]% [Production] [in this city]","+[25]% great person generation in this city"],
+        "requiredTech": "Economics"     
+    },
+{
+        "name": "Stele", //modded
+        "replaces": "Monument",
+        "uniqueTo": "Ethiopia",
+        "culture": 4,
+        "cost": 40,
+        "hurryCostModifier": 40,
+        "maintenance": 1
+    },
+    {
+        "name": "Pyramid", //modded
+        "replaces": "Monument",
+        "uniqueTo": "The Maya",
+        "culture": 2,
+        "science": 2,
+        "cost": 40,
+        "hurryCostModifier": 40,
+        "maintenance": 1
+    },
+	 {
+        "name": "Maya Great People Bonus",
+        "uniqueTo": "The Maya",
+        "greatPersonPoints": {"science": 12,"culture": 12,"production": 12,"gold": 12},
+        "requiredTech": "Theology",
+        "cost": -1,
+        "replacementTextForUniques": " ",
+        "uniques": ["Not displayed as an available construction without [Palace]",
+        	"Will not be displayed in Civilopedia","Unsellable"]
+    },
+	{
+        "name": "Ikanda", //modded
+        "replaces": "Barracks",
+        "uniqueTo": "Zulu",
+        "cost": 75,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "uniques": ["New [Military] units start with [15] Experience in this city","All newly-trained [Melee] units in this city receive the [Buffalo Horns I] promotion"],
+        "requiredTech": "Bronze Working"
+    }
+	 {
+        "name": "Ducal Stable", //modded
+        "replaces": "Stable",
+        "uniqueTo": "Poland",
+        "cost": 75,
+        "maintenance": 0,
+        "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+        "hurryCostModifier": 25,
+        "uniques": ["+[15]% Production when constructing [Mounted] units [in this city]",
+            "New [Mounted] units start with [15] Experience in this city",
+        	"[+1 Production, +1 Gold] from [Cattle] tiles in this city",
+        	"[+1 Production, +1 Gold] from [Horses] tiles in this city",
+        	"[+1 Production, +1 Gold] from [Sheep] tiles in this city",],
+        "requiredTech": "Horseback Riding"
+    },
+	{
+        "name": "Candi", //modded
+        "replaces": "Garden",
+        "uniqueTo": "Indonesia",
+        "cost": 120,
+        "culture": 2,
+        "uniques": ["+[25]% great person generation in this city"],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Theology"
+    },
+	{
+        "name": "Ceilidh Hall", //modded
+        "replaces": "Opera House",
+        "uniqueTo": "Celts",
+        "happiness": 3,
+        "culture": 4,
+        "specialistSlots": {"Artist": 1},
+        "cost": 250,
+        "hurryCostModifier": 25,
+        "maintenance": 2,
+        "uniques": ["Requires a [Temple] in this city"],
+        "requiredTech": "Acoustics"
+    },
+	{
+        "name": "Free Classical Policy",
+        "uniqueTo": "Poland",
+        "cost": -1,
+        "replacementTextForUniques": " ",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+            "Obsolete with [Theology]","Unlocked with [Classical era]","Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Free Medieval Policy",
+        "uniqueTo": "Poland",
+        "cost": -1,
+        "replacementTextForUniques": " ",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+            "Obsolete with [Astronomy]","Unlocked with [Medieval era]","Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Free Renaissance Policy",
+        "uniqueTo": "Poland",
+        "cost": -1,
+        "replacementTextForUniques": " ",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+            "Obsolete with [Archaeology]","Unlocked with [Renaissance era]","Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Free Industrial Policy",
+        "uniqueTo": "Poland",
+        "cost": -1,
+        "replacementTextForUniques": " ",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+            "Obsolete with [Refrigeration]","Unlocked with [Industrial era]","Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Free Modern Policy",
+        "uniqueTo": "Poland",
+        "cost": -1,
+        "replacementTextForUniques": " ",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+            "Obsolete with [Pharmaceuticals]","Unlocked with [Modern era]","Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Free Atomic Policy",
+        "uniqueTo": "Poland",
+        "cost": -1,
+        "replacementTextForUniques": " ",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy","Unsellable"
+            "Obsolete with [Telecommunications]","Unlocked with [Atomic era]","Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Free Information Policy",
+        "uniqueTo": "Poland",
+        "cost": -1,
+        "replacementTextForUniques": " ",
+        "uniques": ["Not displayed as an available construction without [Palace]","Free Social Policy",
+            "Unlocked with [Information era]","Will not be displayed in Civilopedia","Unsellable"]
+    },
+]
