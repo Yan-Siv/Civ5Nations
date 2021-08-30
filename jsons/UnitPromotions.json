@@ -1,0 +1,36 @@
+[
+
+	{
+		"name": "Heal Instantly",
+		"effect": "Heal this Unit by 50 HP; Doing so will consume this opportunity to choose a Promotion",
+		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine"]
+	},
+	{
+		"name": "Mystic Blade", // only for Kris Swordsman and subsequent upgrades
+		"effect": "Access to special promotions"
+	},
+	{
+		"name": "Homeland Guardian", // only for Berber Cavalry and subsequent upgrades
+		"effect": "+20% bonus outside friendly territory"
+	},
+	{
+		"name": "Desert Warrior", // only for Berber Cavalry and subsequent upgrades
+		"effect": "+[50]% combat bonus in [Desert]"
+	},
+	{
+		"name": "Heavy Charge", // only for Winged Hussar and subsequent upgrades
+		"effect": "+[25]% Strength when attacking",
+	},
+	{
+		"name": "Feared Elephant", // only for Maori Warrior and subsequent upgrades
+		"effect": "-10% combat strength for adjacent enemy units"
+	},
+	{
+		"name": "Spear Throw", // only for Impi and subsequent upgrades
+		"effect": "1 additional attack per turn",
+	},
+	{
+		"name": "Phoenician Heritage", // Carthage
+		"effect": "Can pass through impassable tiles"
+	}
+]

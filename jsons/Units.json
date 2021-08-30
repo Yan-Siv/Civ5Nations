@@ -116,7 +116,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"uniques": ["Consumes [1] [Iron]"],
-		//"promotions": ["Mystic Blade"],
+		"promotions": ["Mystic Blade"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -130,7 +130,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		//"promotions": ["Homeland Guardian","Desert Warrior"],
+		"promotions": ["Homeland Guardian","Desert Warrior"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"Penalty vs City 33%","Consumes [1] [Horses]"],
 		"attackSound": "horse"	
@@ -149,7 +149,7 @@
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"Penalty vs City 33%","Consumes [1] [Horses]"],
-		//"promotions": ["Shock I","Formation I","Heavy Charge"],
+		"promotions": ["Shock I","Formation I","Heavy Charge"],
 		"attackSound": "horse"
 	},
 	{
@@ -243,7 +243,7 @@
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
 			"Penalty vs City 33%","Consumes [1] [Horses]"],
-		//"promotions": ["Feared Elephant","Great Generals II"],
+		"promotions": ["Feared Elephant","Great Generals II"],
 		"attackSound": "horse"		
 	},
 	{
@@ -258,7 +258,7 @@
 		"uniques": ["Bonus vs Mounted 50%"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		//"promotions": ["Spear Throw"],
+		"promotions": ["Spear Throw"],
 		"attackSound": "metalhit"
 	},
 ]
