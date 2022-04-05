@@ -18,8 +18,7 @@
 		"outerColor": [251,255,206],
 		"innerColor": [255,177,9],
 		"uniqueName": "Treasures of Nineveh",
-		"uniqueText": " When a city is conquered, gain a free Technology. Gaining a city through a trade deal does not count
-		",
+		"uniqueText": "When a city is conquered, gain a free Technology. Gaining a city through a trade deal does not count",
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
 			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
 			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"]
@@ -95,8 +94,7 @@
 		"outerColor": [123,3,0],
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
-		"uniqueText": " +3 Gold and +1 Culture from every Trade Route
-		",
+		"uniqueText": " +3 Gold and +1 Culture from every Trade Route",
 		"uniques": ["[+3 Gold, +1 Culture] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
 			"[+1 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]",
 			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]"],
@@ -173,8 +171,7 @@
 		"outerColor": [65,54,42],
 		"innerColor": [78,244,234],
 		"uniqueName": "Great Expanse",
-		"uniqueText": " Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land
-		"
+		"uniqueText": "Increased rate of border expansion. +15% combat bonus for units fighting in Friendly Land",
 		"uniques": ["[-75]% Culture cost of natural border growth [in all cities]","+[15]% combat bonus for units fighting in [Friendly Land]"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",
 			"Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock","Yahandeka","Tetadeka","Deheyaeka",
@@ -199,8 +196,7 @@
 		"outerColor": [105,34,172],
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
-		"uniqueText": " Cannot gain settlers, Double the normal number of trade routes available, Receive free Merchant of Venice when you discover Optics
-		"
+		"uniqueText": " Cannot gain settlers, Double the normal number of trade routes available, Receive free Merchant of Venice when you discover Optics",
 		"uniques": ["[100]% [Gold] [in capital]","Receive free [Merchant of Venice] when you discover [Optics]",
 			    "Start with [Setler]"],
 		"cities": ["Venice","Aarhus","Kaupang","Ribe","Viborg","Tunsbers","Roskilde","Hedeby","Oslo","Jelling","Truso",
