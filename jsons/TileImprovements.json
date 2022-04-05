@@ -6,7 +6,7 @@
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Machinery",
-		"uniques": ["[+2 Culture] once [Acoustics] is discovered"]
+		"uniques": ["[+2 Culture] <after discovering [Acoustics]>]
 	},
 	{
 		"name": "Kasbah",
