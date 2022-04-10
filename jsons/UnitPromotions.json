@@ -29,8 +29,4 @@
 		"name": "Spear Throw", // only for Impi and subsequent upgrades
 		"effect": "1 additional attack per turn",
 	},
-	{
-		"name": "Phoenician Heritage", // Carthage
-		"effect": "Can pass through impassable tiles"
-	}
 ]

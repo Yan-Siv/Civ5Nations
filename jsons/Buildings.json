@@ -19,47 +19,6 @@
         	"Will not be displayed in Civilopedia","Unsellable"],
     },
 	{
-        "name": "Coffee House", //modded
-        "replaces": "Windmill",
-        "uniqueTo": "Austria",
-        "cost": 250,
-        "production": 2,
-        "specialistSlots": {"Engineer": 1},
-        "hurryCostModifier": 25,
-        "maintenance": 2,
-        "uniques": ["+[5]% [Production] [in this city]","+[25]% great person generation in this city"],
-        "requiredTech": "Economics"     
-    },
-{
-        "name": "Stele", //modded
-        "replaces": "Monument",
-        "uniqueTo": "Ethiopia",
-        "culture": 4,
-        "cost": 40,
-        "hurryCostModifier": 40,
-        "maintenance": 1
-    },
-    {
-        "name": "Pyramid", //modded
-        "replaces": "Monument",
-        "uniqueTo": "The Maya",
-        "culture": 2,
-        "science": 2,
-        "cost": 40,
-        "hurryCostModifier": 40,
-        "maintenance": 1
-    },
-	 {
-        "name": "Maya Great People Bonus",
-        "uniqueTo": "The Maya",
-        "greatPersonPoints": {"science": 12,"culture": 12,"production": 12,"gold": 12},
-        "requiredTech": "Theology",
-        "cost": -1,
-        "replacementTextForUniques": " ",
-        "uniques": ["Not displayed as an available construction without [Palace]",
-        	"Will not be displayed in Civilopedia","Unsellable"]
-    },
-	{
         "name": "Ikanda", //modded
         "replaces": "Barracks",
         "uniqueTo": "Zulu",
@@ -77,8 +36,8 @@
         "maintenance": 0,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "hurryCostModifier": 25,
-        "uniques": ["+[15]% Production when constructing [Mounted] units [in this city]",
-            "New [Mounted] units start with [15] Experience in this city",
+        "uniques": ["[15]% Production when constructing [Mounted] units [in this city]",
+          	"New [Mounted] units start with [15] Experience in this city",
         	"[+1 Production, +1 Gold] from [Cattle] tiles in this city",
         	"[+1 Production, +1 Gold] from [Horses] tiles in this city",
         	"[+1 Production, +1 Gold] from [Sheep] tiles in this city",],
@@ -94,19 +53,6 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Theology"
-    },
-	{
-        "name": "Ceilidh Hall", //modded
-        "replaces": "Opera House",
-        "uniqueTo": "Celts",
-        "happiness": 3,
-        "culture": 4,
-        "specialistSlots": {"Artist": 1},
-        "cost": 250,
-        "hurryCostModifier": 25,
-        "maintenance": 2,
-        "uniques": ["Requires a [Temple] in this city"],
-        "requiredTech": "Acoustics"
     },
 	{
         "name": "Free Classical Policy",
